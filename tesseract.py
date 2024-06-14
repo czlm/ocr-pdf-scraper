@@ -9,8 +9,6 @@ def extract_text_from_pdf(pdf_file):
         txt = pytesseract.image_to_string(page_data).encode("utf-8")
         print("Page # {} - {}".format(str(page_number),txt))
 
-        
-
 
 if __name__ == '__main__':
     extract_text_from_pdf("TRM Guidelines 18 January 2021.pdf")

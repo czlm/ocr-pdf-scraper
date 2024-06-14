@@ -9,11 +9,11 @@ pip install -r requirements.txt
 
 ## Windows
 
-Poppler
+**Poppler**
 
 Windows users will have to build or download poppler for Windows, https://github.com/oschwartz10612/poppler-windows/releases/.  You will then have to add the ```bin/``` folder to PATH or use ```poppler_path = r"C:\path\to\poppler-xx\bin"``` as an argument in convert_from_path.
 
-Pytesseract
+**Pytesseract**
 
 https://github.com/UB-Mannheim/tesseract/wiki
 
